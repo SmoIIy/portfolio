@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+	--color-main-base: #f55536;
+	--color-main-hover: #bd3b22;
+	--color-base-dark: #212429;
+	--color-base-white: #f2f2f2;
+
+	--font-poppins: Poppins, sans-serif;
+
+	--spacing-block: 600px;
+}
+
+@layer components {
+}
