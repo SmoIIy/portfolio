@@ -1,10 +1,13 @@
+import icon from "../assets/icon.svg";
+import Image from "next/image";
+
 export default function About() {
 	return (
 		<section className="min-h-block bg-base-dark text-base-white">
 			<div className="md:max-w-7xl mx-auto  min-h-block grid md:grid-cols-2 grid-cols-1 place-items-center p-4">
-				<img
-					className="md:m-8 aspect-video"
-					src="https://picsum.photos/300/200"
+				<Image
+					className="md:m-8 aspect-video size-96"
+					src={icon}
 					alt=""
 				/>
 				<div className="md:order-1 order-first">
