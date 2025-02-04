@@ -1,3 +1,3 @@
 export default function Header() {
-	return <header className="h-16 w-full bg-main-base"></header>;
+	return <header className="md:h-16 h-10 w-full bg-main-base"></header>;
 }
