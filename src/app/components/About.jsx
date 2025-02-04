@@ -1,14 +1,14 @@
 export default function About() {
 	return (
 		<section className="min-h-block bg-base-dark text-base-white">
-			<div className="md:max-w-7xl mx-auto  min-h-block grid md:grid-cols-2 grid-cols-1 place-items-cente p-4">
+			<div className="md:max-w-7xl mx-auto  min-h-block grid md:grid-cols-2 grid-cols-1 place-items-center p-4">
 				<img
-					className="md:m-8"
-					src="https://picsum.photos/400/600"
+					className="md:m-8 aspect-video"
+					src="https://picsum.photos/300/200"
 					alt=""
 				/>
-				<div className="order-first">
-					<h2 className="md:text-6xl text-4xl mb-4 md:mb-12 font-bold  text-center uppercase">
+				<div className="md:order-1 order-first">
+					<h2 className="md:text-6xl text-4xl mb-4 md:mb-12 font-bold text-center uppercase">
 						About me
 					</h2>
 					<p className="leading-6.5">

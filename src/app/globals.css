@@ -12,4 +12,7 @@
 }
 
 @layer components {
+	.arrow-up:after {
+		@apply w-4 h-4 content-[''] block absolute -top-2 left-auto bg-main-base;
+	}
 }
