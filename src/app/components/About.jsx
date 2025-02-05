@@ -8,7 +8,7 @@ export default function About() {
 				<Image
 					className="md:m-8 aspect-video md:size-96 hidden md:block"
 					src={icon}
-					alt=""
+					alt="Logo"
 				/>
 				<div className="md:order-1 order-first">
 					<h2 className="md:text-6xl text-4xl mb-4 md:mb-12 font-bold text-center uppercase">
