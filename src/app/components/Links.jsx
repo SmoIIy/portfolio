@@ -21,7 +21,7 @@ export default function Links({ className }) {
 						strokeLinejoin="round"
 					/>
 				</svg>
-				<p className="scale-0 group-hover:scale-85 transition absolute translate-y-4 -translate-x-5 font-medium text-sm text-base-white bg-main-base p-2 rounded-md ">
+				<p className="scale-0 group-hover:scale-85 transition absolute ease-in translate-y-4 -translate-x-5 font-medium text-sm text-base-white bg-main-base p-2 rounded-md ">
 					Github
 				</p>
 			</a>
@@ -54,7 +54,7 @@ export default function Links({ className }) {
 						strokeLinejoin="round"
 					/>
 				</svg>
-				<p className="scale-0 group-hover:scale-85 transition absolute translate-y-4 -translate-x-8 font-medium text-sm text-base-white bg-main-base p-2 rounded-md ">
+				<p className="scale-0 group-hover:scale-85 transition absolute ease-in translate-y-4 -translate-x-8 font-medium text-sm text-base-white bg-main-base p-2 rounded-md ">
 					Instagram
 				</p>
 			</a>
@@ -100,7 +100,7 @@ export default function Links({ className }) {
 						strokeLinejoin="round"
 					/>
 				</svg>
-				<p className="scale-0 group-hover:scale-85 transition absolute translate-y-4 -translate-x-5 font-medium text-sm text-base-white bg-main-base p-2 rounded-md ">
+				<p className="scale-0 group-hover:scale-85 transition absolute ease-in translate-y-4 -translate-x-5 font-medium text-sm text-base-white bg-main-base p-2 rounded-md ">
 					LinkedIn
 				</p>
 			</a>

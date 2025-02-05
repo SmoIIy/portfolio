@@ -6,7 +6,7 @@ export default function About() {
 		<section className="min-h-block bg-base-dark text-base-white">
 			<div className="md:max-w-7xl mx-auto  min-h-block grid md:grid-cols-2 grid-cols-1 place-items-center p-4">
 				<Image
-					className="md:m-8 aspect-video size-96"
+					className="md:m-8 aspect-video md:size-96 hidden md:block"
 					src={icon}
 					alt=""
 				/>
@@ -21,6 +21,11 @@ export default function About() {
 						qui repellat eaque excepturi ducimus laudantium.
 						Voluptatibus illum nemo ipsum beatae!
 					</p>
+					<Image
+						className="md:m-8 aspect-video md:hidden mx-auto self-center"
+						src={icon}
+						alt=""
+					/>
 					<p className="leading-6.5">
 						Lorem ipsum dolor sit amet consectetur, adipisicing
 						elit. Dolorum pariatur sequi maiores dignissimos
