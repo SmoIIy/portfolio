@@ -5,6 +5,7 @@ import About from "./components/About";
 import Project from "./components/Project";
 import Projects from "./components/Projects";
 import Test from "./components/Test";
+import Skills from "./components/Skills";
 
 export default function Home() {
 	return (
@@ -13,7 +14,7 @@ export default function Home() {
 			<Hero />
 			<About />
 			<Projects />
-
+			<Skills />
 			<Header />
 		</div>
 	);
