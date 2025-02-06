@@ -4,6 +4,7 @@
 	--color-main-base: #f55536;
 	--color-main-hover: #bd3b22;
 	--color-base-dark: #212429;
+	--color-base-dark-lighter: #33363b;
 	--color-base-white: #f2f2f2;
 
 	--font-poppins: Poppins, sans-serif;
@@ -26,8 +27,8 @@
 }
 
 @layer components {
-	.arrow-up:after {
-		@apply w-4 h-4 content-[''] block absolute -top-2 left-auto bg-main-base;
+	h2 {
+		@apply md:text-6xl text-4xl font-bold text-center uppercase text-base-white;
 	}
 }
 
