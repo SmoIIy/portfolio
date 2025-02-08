@@ -53,9 +53,12 @@ function Languages() {
 			<Skill className="basis-[100px]" skill="PHP" />
 			<Skill className="basis-[100px]" skill="React" />
 			<Skill className="basis-[150px]" skill="NextJS" />
+			<Skill className="basis-[150px]" skill="TailwindCSS" />
 			<Skill className="basis-[100px]" skill="Wordpress" />
 			<Skill className="basis-[100px]" skill="Processing" />
 			<Skill className="basis-[100px]" skill="Astro.js" />
+			<Skill className="basis-[100px]" skill="REST API" />
+			<Skill className="basis-[100px]" skill="Supabase" />
 		</div>
 	);
 }
