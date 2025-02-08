@@ -15,11 +15,11 @@ export default function About() {
 						About me
 					</h2>
 					<p className="leading-6.5">
-						Lorem ipsum dolor sit amet consectetur, adipisicing
-						elit. Dolorum pariatur sequi maiores dignissimos
-						temporibus obcaecati veritatis vero, cupiditate quasi
-						qui repellat eaque excepturi ducimus laudantium.
-						Voluptatibus illum nemo ipsum beatae!
+						Hi! My name is Janus, i am 27 years old and i am a
+						multimediadesigner/frontend developer. I pride myself in
+						creating sleek, beautiful and easy to use solutions for
+						customers and friends alike, and I believe that
+						communication is the key to a successful product.
 					</p>
 					<Image
 						className="md:m-8 aspect-video md:hidden mx-auto self-center"
@@ -27,11 +27,14 @@ export default function About() {
 						alt=""
 					/>
 					<p className="leading-6.5">
-						Lorem ipsum dolor sit amet consectetur, adipisicing
-						elit. Dolorum pariatur sequi maiores dignissimos
-						temporibus obcaecati veritatis vero, cupiditate quasi
-						qui repellat eaque excepturi ducimus laudantium.
-						Voluptatibus illum nemo ipsum beatae!
+						<br />I have always been interested in technology and
+						learning how things work. This has made it easier for me
+						to learn new things, whether it's a new framework,
+						program, language or whatever it might be - i believe
+						that i can figure it out. I also like creating small
+						sites for fun, like quizzes or games. I like
+						communicating and connecting with people, and i really
+						enjoy meeting new people.
 					</p>
 				</div>
 			</div>

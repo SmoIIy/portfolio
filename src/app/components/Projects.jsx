@@ -6,7 +6,7 @@ import per from "@/app/assets/Screenshot_1312.png";
 export default function Projects() {
 	return (
 		<section className="min-h-block bg-base-white md:p-10 p-2">
-			<h2 className="uppercase md:text-6xl text-4xl font-bold text-center md:mb-12 mt-4">
+			<h2 className="uppercase md:text-6xl text-4xl font-bold text-center md:mb-12 mt-4 text-base-dark">
 				My Projects
 			</h2>
 			<div className="md:max-w-7xl mx-auto  min-h-block grid lg:grid-cols-3 grid-cols-1 place-items-center p-4 md:p-0 text-center gap-4">

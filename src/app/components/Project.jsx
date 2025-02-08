@@ -48,8 +48,9 @@ export default function Project({ src, title, body, anchor, icon, st }) {
 				<Button
 					className="mx-auto mb-4"
 					anchor={anchor}
-					body="Visit Project &#8599;"
+					body={`Visit Project `}
 					target="true"
+					icon="true"
 				/>
 			</div>
 		</article>

@@ -14,7 +14,7 @@ function Card({ children, className }) {
 
 function CardContent({ children, className }) {
 	return (
-		<div className={`rounded-sm text-base-white p-4 min-h-40 ${className}`}>
+		<div className={`rounded-sm text-base-white p-2 min-h-40 ${className}`}>
 			{children}
 		</div>
 	);
@@ -30,25 +30,63 @@ function Button({ children, onClick, className }) {
 		</button>
 	);
 }
-function Skill() {
+function Skills() {
 	return (
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
-			distinctio recusandae ab aperiam deleniti voluptate ullam assumenda
-			odio earum nostrum vitae iure, ipsam incidunt quisquam. Nostrum
-			itaque molestias nulla esse?
-		</p>
+		<div className="flex w-full flex-wrap gap-2">
+			<Skill skill="Web Development" />
+			<Skill skill="UI Design" />
+			<Skill skill="User Experience" />
+			<Skill skill="Customer Communication" />
+			<Skill skill="Photography" />
+			<Skill skill="Branding" />
+			<Skill skill="Photo Editing" />
+			<Skill skill="Social Media" />
+		</div>
+	);
+}
+function Languages() {
+	return (
+		<div className="flex w-full flex-wrap gap-2">
+			<Skill skill="Javascript" />
+			<Skill className="basis-[120px]" skill="HTML" />
+			<Skill className="basis-[100px]" skill="CSS" />
+			<Skill className="basis-[100px]" skill="PHP" />
+			<Skill className="basis-[100px]" skill="React" />
+			<Skill className="basis-[150px]" skill="NextJS" />
+			<Skill className="basis-[100px]" skill="Wordpress" />
+			<Skill className="basis-[100px]" skill="Processing" />
+			<Skill className="basis-[100px]" skill="Astro.js" />
+		</div>
+	);
+}
+function Software() {
+	return (
+		<div className="flex w-full flex-wrap gap-2">
+			<Skill skill="Javascript" />
+			<Skill className="basis-[120px]" skill="Adobe Photoshop" />
+			<Skill className="basis-[100px]" skill="Adobe Lightroom" />
+			<Skill className="basis-[100px]" skill="Adobe Premier" />
+			<Skill className="basis-[100px]" skill="Figma" />
+			<Skill className="basis-[150px]" skill="Adobe Illustrator" />
+			<Skill className="basis-[100px]" skill="Jira" />
+			<Skill className="basis-[100px]" skill="Trello" />
+		</div>
+	);
+}
+function Skill({ skill, icon, className }) {
+	return (
+		<div
+			className={`bg-base-dark p-2 rounded-sm grow min-w-max ${className}`}
+		>
+			<p>{skill}</p>
+		</div>
 	);
 }
 
 export default function TabCard() {
 	const [activeTab, setActiveTab] = useState(0);
-	const tabs = ["Skills", "Languages and frameworks", "Tab 3"];
-	const content = [
-		<Skill />,
-		"Here is some content for Tab 2.",
-		"Content for Tab 3 goes here.",
-	];
+	const tabs = ["Skills", "Languages and frameworks", "Software"];
+	const content = [<Skills />, <Languages />, <Software />];
 
 	return (
 		<Card className="w-full max-w-md mb-10">
