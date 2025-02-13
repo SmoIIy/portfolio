@@ -11,11 +11,20 @@ export default function Hero() {
 					<h2 className="md:text-4xl text-2xl text-base-dark opacity-50 font-medium">
 						Janus Bardrum
 					</h2>
-					<h1 className="text-main-base md:text-6xl/18 text-3xl font-extrabold mb-4 md:mb-6 uppercase">
+					<h1 className="text-main-base md:text-6xl/18 text-3xl font-extrabold uppercase">
 						Multimediadesigner & Frontend Developer
 					</h1>
 					{/*Insert SoMe links here */}
-					<Links className="place-self-center" />
+					<h3 className="text-base-dark-lighter text-sm md:text-base opacity-50 mb-4 md:mb-6">
+						<a
+							href="mailto:janusbardrum@gmail.com"
+							className="underline hover:text-main-base "
+						>
+							janusbardrum@gmail.com
+						</a>{" "}
+						| 6114 9336
+					</h3>
+					<Links className="place-self-center " />
 				</div>
 				<Image
 					src={Headshot}
