@@ -65,7 +65,6 @@ function Languages() {
 function Software() {
 	return (
 		<div className="flex w-full flex-wrap gap-2">
-			<Skill skill="Javascript" />
 			<Skill className="basis-[120px]" skill="Adobe Photoshop" />
 			<Skill className="basis-[100px]" skill="Adobe Lightroom" />
 			<Skill className="basis-[100px]" skill="Adobe Premier" />
