@@ -12,7 +12,7 @@ export default function Hero() {
                         Janus Bardrum
                     </h2>
                     <h1 className="text-main-base md:text-6xl/18 text-3xl font-extrabold uppercase">
-                        Multimediadesigner & Frontend Developer
+                        Multimediadesigner & Fullstack Developer
                     </h1>
                     {/*Insert SoMe links here */}
                     <h3 className="text-base-dark-lighter text-sm md:text-base opacity-50 mb-4 md:mb-6">

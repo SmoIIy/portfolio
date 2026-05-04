@@ -16,7 +16,7 @@ export default function About() {
                     </h2>
                     <p className="leading-6.5">
                         Hi! My name is Janus, i am 28 years old and i am a
-                        multimediadesigner/frontend developer and web
+                        multimediadesigner/fullstack developer and web
                         development student. I pride myself in creating sleek,
                         beautiful and easy to use solutions for customers and
                         friends alike, and I believe that communication is the
